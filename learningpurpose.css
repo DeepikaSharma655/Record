@@ -1,0 +1,207 @@
+/*common css*/
+body{
+    max-width:100%;
+    margin:0; 
+    padding:0;
+}
+/*header css */
+#myHeader{
+    display:flex;
+    justify-content: space-between;
+}
+#logo{
+    width:20%;
+}
+.mylogo {
+    /* width: 25%; */
+    /* height: 60%; */
+    width: 130px;
+}
+#menubar{
+    margin-top:20px;
+}
+#menubar ul {
+    width: auto;
+    text-align: center;
+}
+#menubarlist_7 li
+{
+    padding:5px;
+}
+#menubar ul li {
+    width: auto;
+    margin: 0 13px;
+    display: inline-block;
+    position: relative;
+}
+#menubar ul li a {
+    color: #000;
+    font-size: 20px;
+    font-family: RobotoMedium;
+    padding-bottom: 4px; 
+    text-decoration: none;
+}
+#reqstlogo{
+    margin-top :10px;
+}
+.reqstlogo{
+    width: 135px;
+    height: 38px;
+}
+/*banner css*/
+#banner-carousel .item img{
+    position:relative;
+}
+#banner-carousel .banner-text{
+    position:absolute;
+    transform :translate(-50%,-50%);
+    left: 25%;
+    top: 50%;
+}
+.banner-text h2{
+    margin: 0px 50px;
+    font-size: 38px;
+    color: #ffffff;
+    font-family: 'HelveticaNeueLTStd-Cn';
+    padding-bottom: 26px;
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 55px;
+}
+.banner-text h2 span{
+    color: #ccffff;
+}
+h2::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    left: 35%;
+    transform: translate(-50%);
+    background-color: #ccffff;
+    width: 390px;
+    height: 3px;
+}
+.banner-text p{
+    margin: 0px 50px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 40px;
+}
+.banner-image2{
+    position:absolute;
+    transform :translate(-50%,-50%);
+    right: -15%;
+    top: 50%;
+}
+.owl-nav{
+    display: none;
+}
+.owl-dots{
+    display: none;
+}
+/*red heading css*/
+#redheading{
+    text-align:center;
+    margin-top:30px;
+}
+#redheading1{
+    color: #ee1c25;
+}
+/*advertisement css*/
+#rowone{
+    display: flex;
+    justify-content: space-between;
+}
+#advertisement{
+    margin-top:23px;
+} 
+.rowone{
+    margin-left: 83px;
+}
+.advertisement-images{
+    margin-right:10px;
+}
+/*our services css*/
+#ourservices{
+    background: #f0f0f0;
+}
+#servicesheading {
+    text-align:center;
+    padding: 45px 0 20px;
+    font-size: 35px;
+    font-weight: 500;
+}
+#serviceclass{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 55px;
+}
+.service-item{
+    width:33.33%;
+    margin-bottom: 55px;
+}
+/*result css*/
+#company-result{
+    background-color: #e7e7e7;
+    padding-top: 20px;
+}
+#result-heading{
+    font-size: 45px;
+    font-weight: 400;
+    color: #ee1c25;
+    text-align: center;
+}
+#result-section-table{
+    width: 1200px;
+    margin: 0 auto;
+}
+#result-section-table td{
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+#result-section-table td img{
+    width: 150px;
+}
+#result-section-table td:last-child {
+    border-right :none;
+  }
+#result-section-table tbody > tr:last-child > td {
+    border-bottom: 0;
+  }
+
+/*footer css*/
+#main-footer{
+    background-image: url("images/footer-bg.jpg");
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+#inner-footer{
+    width:1100px;
+    margin:0 auto;
+}
+#inner-footer h2{
+    font-size:48px;
+    letter-spacing: 2px;
+    margin-bottom: -13px;
+}
+#inner-footer p{
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+#div-form{
+    width:1100px;
+    margin:0 auto;
+}
+
+ 
+
+
+
+
