@@ -6,9 +6,9 @@ function docReady()
     document.body.appendChild(header);
 
     //create div in header//
-    // var logodiv = document.createElement("div");
-    // logodiv.setAttribute("id", "logo");
-    // document.getElementById("myHeader").appendChild(logodiv);
+    var logodiv = document.createElement("div");
+    logodiv.setAttribute("id", "logo");
+    document.getElementById("myHeader").appendChild(logodiv);
 
     //--add image in logo div--//
     var logoimage = document.createElement("img");
@@ -204,25 +204,29 @@ function docReady()
         document.getElementById("div-form").appendChild(form);
 
         // Create an input element for Full Name //
-        var FN = document.createElement("input"); 
+        var FN = document.createElement("input");
+        FN.setAttribute("id", "first-name"); 
         FN.setAttribute("type", "text"); 
         FN.setAttribute("name", "FullName"); 
         FN.setAttribute("placeholder", "Full Name"); 
 
         // Create an input element for emailID //
         var EID = document.createElement("input"); 
+        EID.setAttribute("id", "email");
         EID.setAttribute("type", "text"); 
         EID.setAttribute("name", "emailID"); 
         EID.setAttribute("placeholder", "Email Address"); 
 
       // Create an input element for mobile //
-      var MN = document.createElement("input"); 
+      var MN = document.createElement("input");
+      MN.setAttribute("id", "mobile-number"); 
       MN.setAttribute("type", "tel"); 
       MN.setAttribute("name", "mobile"); 
       MN.setAttribute("placeholder", "Mobile Number");
 
       // create a submit button 
       var s = document.createElement("input"); 
+      s.setAttribute("id", "submit-button");
       s.setAttribute("type", "submit"); 
       s.setAttribute("value", "SUBMIT");
 
