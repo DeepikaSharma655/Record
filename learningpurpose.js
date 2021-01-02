@@ -6,9 +6,9 @@ function docReady()
     document.body.appendChild(header);
 
     //create div in header//
-    var logodiv = document.createElement("div");
-    logodiv.setAttribute("id", "logo");
-    document.getElementById("myHeader").appendChild(logodiv);
+    // var logodiv = document.createElement("div");
+    // logodiv.setAttribute("id", "logo");
+    // document.getElementById("myHeader").appendChild(logodiv);
 
     //--add image in logo div--//
     var logoimage = document.createElement("img");
